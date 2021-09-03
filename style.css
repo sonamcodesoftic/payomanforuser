@@ -1,0 +1,186 @@
+/* login in page Css Start */
+.banner
+{
+    height: 300px; 
+    background-color:#175f89;
+   
+}
+
+.logo-column
+{
+    margin-top: 40px;
+}
+.logo-column img
+{
+   /* width: 80%; */
+
+}
+.forn-container
+{
+     background-color: #ffffff; 
+     margin-top: -8%!important;
+    width: 80%; 
+    margin:auto; 
+    border: 1px solid #969595;
+    border-radius: 5px;
+}
+.success-btn
+{
+    background-color:#175f89;
+    color:#ffffff;
+    border-radius: 50px;
+}
+.btn-link
+{
+    background-color:#175f89;
+    border-radius: 50px;
+    color: #ffffff;
+    
+}
+.btn-link a{
+    color: #ffffff;
+}
+.input-box
+{
+     border:1px solid #969595;
+}
+.forgot-sec a
+{
+  text-decoration: none!important;
+  color: #65676b;
+}
+/* login in page Css End */
+
+/* Sign up page Css Start */
+.nav-link a{
+    text-decoration: none;
+    color: #ffffff!important;
+}
+.nav
+{
+    /* background-color: #175f89; */
+}
+.fa-arrow-left:before 
+{
+   color: #ffffff!important;
+}
+/* Sign up page Css Start */
+
+/* Wallet Section Start */
+.wallet-card
+ {
+   background-color:#175f89;
+   border-radius: 5px;
+ }
+ .navbar-sec
+ {
+     /* background-color: #175f89; */
+     color: #ffffff!important;
+ }
+ .navbar-sec i{
+     /* background-color: #175f89; */
+     
+ }
+ .nav-link-new a
+ {
+   color:#000000;
+ }
+ .received-money-button
+ {
+     background-color:#175f89;
+     border: none;
+     color: #ffffff;
+     border-radius:20px;
+ }
+/* Wallet Section End */
+
+
+/* code Scaner Section Start */
+.code-scaner-sec
+{
+    background-color: #cc4521;
+    
+}
+.code-scaner-container
+{
+    /* background-color: #ffffff; */
+}
+
+
+/* Code Scaner Section End */
+
+
+
+/* Sidebar page tabs scetion Start */
+  /* Tabs*/
+
+section .section-title {
+    text-align: center;
+    /* color: #007b5e; */
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	/* background: #007b5e; */
+    color: #65676b;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+.tab-btn
+{
+    background-color: #175f89;
+    border: 1px solid #175f89;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.tabs
+{
+    margin-top: -5%;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #175f89;
+    background-color: transparent;
+    border-color: transparent transparent #175f89;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    /* color: #eee; */
+    font-size: 20px;
+}
+/* siadebar page tabs section End */
+
+
+@media only screen and (max-width: 768px)
+{
+    .forn-container
+    {   
+       background-color: #ffffff; 
+       margin-top: -35%!important; 
+       width: 80%; 
+       margin:auto; 
+       border: 1px solid #969595;
+    }
+   .banner
+    {
+      height: 350px; 
+      /* background-color:#d90136; */
+      background-color: #175f89;
+    }
+    .code-scaner-container
+    {
+        width: 90%;
+        margin:auto;
+    }
+    .nav-container
+    {
+        width: 100%;
+        margin:auto;
+    }
+}
